@@ -1,0 +1,37 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.bg-light {
+  background-color: #f3f3f3;
+}
+
+.header {
+  background-image: url(./assets/img/dMUt0X3f59Q.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.header h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px;
+}
+
+section h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: #00cc99;
+  margin: 5px auto;
+}
+
+.company-content {
+  max-width: 800px;
+}
+
+.footer {
+  height: 100px;
+}
